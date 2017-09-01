@@ -1,0 +1,56 @@
+/*
+-ESTILOS UTILIZADOS EM TODAS AS PÁGINAS-
+*/
+header /*Estilo utilizado no cabeçalho.*/{
+	text-align: center;
+	background: lightsteelblue;
+	border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+footer /*Estilo utilizado no Rodapé.*/{
+	text-align: center;
+	background: lightgreen;
+	border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+body /*Estilo utilizado no corpo do site.*/{
+	background: lightblue;
+}
+
+a {
+	font-style: italic;
+	font-family: arial;
+}
+
+h1,h2,h3 {
+	color: darkblue;
+}
+
+
+/*FIM DOS ESTILOS GERAIS USADOS EM TODAS AS PÁGINAS*/
+
+
+.titulo {
+	text-align: center;
+	border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.menu {
+	color: white;
+	text-align: center;
+	border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    background: steelblue;
+}
+.topico, h4 {
+	text-align: left;
+	border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background: lightsteelblue;
+}

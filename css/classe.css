@@ -19,12 +19,12 @@ body /*Estilo utilizado no corpo do site.*/{
 	background: lightblue;
 }
 
-a {
+a {  /*Estilo utilizado nas ancoras, de acordo com enunciado..*/
 	font-style: italic;
 	font-family: arial;
 }
 
-h1,h2,h3 {
+h1,h2,h3 { /*Estilo utilizado nos títulos definidos por H1,H2 E H3.*/
 	color: darkblue;
 }
 
@@ -32,14 +32,14 @@ h1,h2,h3 {
 /*FIM DOS ESTILOS GERAIS USADOS EM TODAS AS PÁGINAS*/
 
 
-.titulo {
+.titulo { /*Estilo utilizado nos locais com class="titulo".*/
 	text-align: center;
 	border-width: 1px;
     border-style: solid;
     border-color: black;
 }
 
-.menu {
+.menu { /*Estilo utilizado nos locais com class="menu" */
 	color: white;
 	text-align: center;
 	border-width: 1px;
@@ -47,7 +47,7 @@ h1,h2,h3 {
     border-color: white;
     background: steelblue;
 }
-.topico, h4 {
+.topico, h4 {  /*Estilo utilizado nos locais com class="menu" e H4 */
 	text-align: left;
 	border-width: 1px;
     border-style: solid;

@@ -28,7 +28,7 @@ h1,h2,h3 { /*Estilo utilizado nos títulos definidos por H1,H2 E H3.*/
 	color: darkblue;
 } 
 
-div {
+.curso {
 	text-align: center;
 	border-width: 1px;
 	border-style: solid;

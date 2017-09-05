@@ -1,0 +1,29 @@
+/*Mari Fagundes*/
+	
+	p {
+		font-weight: bold;
+		font-family: verdana;
+		
+	}
+	
+	h5
+	{ border-width: 3px;
+		border-style: solid;
+		border-color: green;
+		
+	}
+
+.prop{
+	width:250px;
+	height:100px;
+}
+
+.foto{
+	width:100px;
+}
+
+.imagem{
+	float:left;
+	width:500px;
+	height:130px; 
+}

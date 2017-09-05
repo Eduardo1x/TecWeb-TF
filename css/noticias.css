@@ -1,0 +1,22 @@
+/*FIM DOS ESTILOS GERAIS USADOS EM TODAS AS PÁGINAS*/
+
+
+	.titulo { /*Estilo utilizado nos locais com class="titulo".*/
+		text-align: center;
+		border-width: 1px;
+		border-style: solid;
+		border-color: black;
+	}
+	.topico, h4 {  /*Estilo utilizado nos locais com class="menu" e H4 */
+		text-align: center;
+		border-width: 1px;
+		border-style: solid;
+		border-color: black;
+		background: lightsteelblue;
+	}
+
+	.foto {
+		width:200px;
+		height:150px;
+	}
+	

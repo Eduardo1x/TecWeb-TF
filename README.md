@@ -10,3 +10,5 @@ Eduardo Correia - RA 1700576
 Mariana Fagundes - RA 1701470
 
 Gabriel Alves Pereira - RA 1700547
+
+Lucas Gomes Silva - RA 1700558

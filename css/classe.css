@@ -1,35 +1,34 @@
 header /*Estilo utilizado no cabeçalho.*/{
 	text-align: center;
-
-}
+	}
 
 body > header > div {
 	border: 1px solid black;
 	width: 100%;
 	height: 130px;
 	background-color: lightsteelblue;
+	text-align: center;
 }
-
 
 .p1{
 	text-align: right;
 	float:left;
 	font-family:Arial;
-	
-
 	}
 
-.menu {
-	width: 200px;
-}
+.menu {  /*Estilo utilizado nos locais com class="menu" */
+		border-width: 1px;
+		border-style: solid;
+		border-color: black;
+		background: lightsteelblue;
+		width: 100%;
+	}
 
 	a {  /*Estilo utilizado nas ancoras, de acordo com enunciado..*/
 		font-style: italic;
 		font-family: arial;
 	}
 
-
-}
 
 	h1, h2, h3, h4 { /*Estilo utilizado nos títulos definidos por H1,H2 E H3.*/
 		color: darkblue;
@@ -45,16 +44,25 @@ body > header > div {
 		border-color: black;
 	}
 
-		body /*Estilo utilizado no corpo do site.*/{
+	body /*Estilo utilizado no corpo do site.*/{
 		background: lightblue;
 	}
 
-	a {  /*Estilo utilizado nas ancoras, de acordo com enunciado..*/
-		font-style: italic;
-		font-family: arial;
-	}
 .imagem{
 	float:left;
-	width:500px;
+	width:50%;
 	height:130px; 
+}
+@media only screen and (max-width : 350px) {
+	header{
+		font-size: 70%;
+	}
+	body{
+		background-color: red;
+	}
+}
+@media only screen and (max-width : 768px) {
+	header{
+		font-size: 85%;
+	}
 }

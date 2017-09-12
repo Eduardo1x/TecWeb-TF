@@ -16,6 +16,32 @@
 	}
 	/*Lucas Gomes*/
 .foto{
-	width:1300px;
+	width:100%;
 	height:180px;
+}
+
+	/* Smartphone com 350px */
+@media only screen and (max-width : 350px) {
+	h1{
+		text-align: center;
+		overflow: hidden;
+	}
+	body{
+		font-size: 70%;
+		text-align: center;
+	}
+}
+
+
+	/* Tablet com 768px */
+@media only screen and (max-width : 768px) {
+	h1{
+		text-align: center;
+		overflow: hidden;
+	}
+	body{
+		text-align: center;
+
+		}
+	}
 }

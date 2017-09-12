@@ -6,24 +6,42 @@
 		
 	}
 	
-	h5
+	h5, h4
 	{ border-width: 3px;
 		border-style: solid;
 		border-color: green;
+		text-align: center;
 		
 	}
 
 .prop{
-	width:250px;
-	height:100px;
+	
+	width:300px;
+	height:180px
+
 }
 
 .foto{
 	width:100px;
 }
 
-.imagem{
-	float:left;
-	width:500px;
-	height:130px; 
+.conteudo {
+	display: flex;
+	justify-content: space-around;
 }
+
+.depoimentos {
+	border: solid 1px #000;
+	flex-basis: 30%;
+}
+
+.prop2{
+	width:300px;
+	height:200px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+

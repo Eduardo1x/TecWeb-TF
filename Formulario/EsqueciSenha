@@ -1,0 +1,12 @@
+<form>
+	<label for = "lblEmail"> E-Mail </label>:<br>
+	<input type= "text" name ="txtEmail"><br>
+
+	<label for = "lblSenha"> Senha</label>:<br>
+	<input type= "password" name ="txtSeha"><br>
+
+	<label for = "lblSenhaConfirma"> Confirmar Senha</label>:<br>
+	<input type= "password" name ="txtSehaConfirma"><br>
+
+	<button type="submit" value="btnEnviar"> Confirmar </button>
+</form>

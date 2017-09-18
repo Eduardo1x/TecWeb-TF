@@ -1,4 +1,4 @@
-header /*Estilo utilizado no cabeçalho.*/{
+header{
 	text-align: center;
 	}
 
@@ -10,49 +10,49 @@ body > header > div {
 	text-align: center;
 }
 
+a { 
+		font-style: italic;
+		font-family: arial;
+	}
+
+h1, h2, h3, h4 {
+		color: darkblue;
+		font-weight: bold;
+		font-family: verdana;
+	}
+
+footer{
+		text-align: center;
+		background: lightgreen;
+		border-width: 1px;
+		border-style: solid;
+		border-color: black;
+}
+
+body {
+		background: lightblue;
+	}
+
 .p1{
 	text-align: right;
 	float:left;
 	font-family:Arial;
 	}
 
-.menu {  /*Estilo utilizado nos locais com class="menu" */
+.menu {  
 		border-width: 1px;
 		border-style: solid;
 		border-color: black;
 		background: lightsteelblue;
 		width: 100%;
-	}
-
-	a {  /*Estilo utilizado nas ancoras, de acordo com enunciado..*/
-		font-style: italic;
-		font-family: arial;
-	}
-
-
-	h1, h2, h3, h4 { /*Estilo utilizado nos títulos definidos por H1,H2 E H3.*/
-		color: darkblue;
-		font-weight: bold;
-		font-family: verdana;
-	}
-
-	footer /*Estilo utilizado no Rodapé.*/{
 		text-align: center;
-		background: lightgreen;
-		border-width: 1px;
-		border-style: solid;
-		border-color: black;
 	}
-
-	body /*Estilo utilizado no corpo do site.*/{
-		background: lightblue;
-	}
-
 .imagem{
 	float:left;
 	width:50%;
 	height:130px; 
 }
+
 @media only screen and (max-width : 350px) {
 	header{
 		font-size: 70%;
